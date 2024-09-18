@@ -3,7 +3,21 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Nunito', sans-serif;
-  height: 100vh;
-    color: white;
+  font-family: "Nunito", sans-serif;
+  height: 100%;
+  min-height: 100%;
+  color: white;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+.box {
+  @apply flex items-center justify-center w-48 h-48 text-gray-900 bg-white rounded-md shadow-lg text-8xl;
+}
+
+.baloon {
+  @apply p-4 text-gray-900 bg-white border-4 border-gray-800 rounded-full;
 }

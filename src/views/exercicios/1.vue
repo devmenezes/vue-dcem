@@ -1,5 +1,19 @@
+<script setup>
+// Use
+// Math.floor(Math.random() * 100)
+// para gerar um número aleatório de 0 a 99
+
+// crie uma referência reativa para guardar esse número
+
+// mostre o número na caixa branca (reatividade)
+
+const numero = 1;
+</script>
+
 <template>
-    <div class="w-48 h-48 rounded-md shadow-lg bg-white">
-        1
-    </div>
+  <div class="box">
+    <!-- Mostre o número (reativo) -->
+    1
+    <!-- no lugar deste 1 fixo -->
+  </div>
 </template>
