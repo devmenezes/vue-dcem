@@ -1,6 +1,8 @@
 <script setup>
+import { ref } from 'vue';
 
-const numero = 87
+
+const numero = ref(87)
 
 const perfil = {
     nome: 'Rafael',
@@ -13,7 +15,7 @@ const perfil = {
 
 <template>
       <div class="box">
-        12
+        {{numero}}
       </div>
       <p class="mt-4 text-lg">
         Olá, Rafael, você trabalha na Ajudância

@@ -1,6 +1,6 @@
 <template>
   <span
-    class="absolute z-50 p-2 border-2 border-white rounded-full cursor-pointer top-4 right-4 bg-slate-950"
+    class="absolute z-50 p-2 border-2 border-white rounded-full cursor-pointer top-4 right-8 bg-blue-900"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,7 @@
 
 <script setup>
+import LogoDCEM from '@/components/LogoDCEM.vue';
+
 // const ramais  = [
 //     { "alias": "Recepção", "numero": 1012 },
 //     { "alias": "Permanência", "numero": 1045 },
@@ -29,7 +31,7 @@
 </script>
 
 <template>
-<img src="/logotransparente.png" class="h-24"/>
+    <LogoDCEM class="h-24" />
     <h1 class="text-2xl font-bold mt-4 mb-8">Ramais da DCEM</h1>
     <ul>
     <li class="mb-1"><strong class="text-yellow-200">Recepção:</strong> 1012</li>

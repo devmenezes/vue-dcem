@@ -1,4 +1,5 @@
 <script setup>
+import LogoDCEM from "@/components/LogoDCEM.vue";
 import { ref } from "vue";
 import { RouterLink } from "vue-router";
 
@@ -14,7 +15,7 @@ const jaera = () => {
 
 <template>
   <!-- Crie pra mim uma página bacana com textos... o primeiro deve ser Bem vindos ao dia 1 do Bootcamp Vue@DCEM -->
-  <img src="/logotransparente.png" class="h-24 mb-4" />
+  <LogoDCEM class="h-24 mb-4" />
   <h1 class="text-4xl font-bold">
     Bem vindos ao Dia 1 do Bootcamp Vue<b class="text-yellow-200">@</b>DCEM
   </h1>

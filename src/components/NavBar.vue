@@ -14,18 +14,18 @@ const dias = [
     paginas: [
       { name: "Componente", path: "/conceitos/componente" },
       { name: "Template Syntax {{ }}", path: "/conceitos/mustache" },
+      { name: "V-For", path: "/conceitos/vfor" },
       { name: "Reatividade Básica", path: "/conceitos/reatividade" },
       { name: "V-Model", path: "/conceitos/vmodel" },
       { name: "V-Bind", path: "/conceitos/bind" },
-      { name: "V-For", path: "/conceitos/vfor" },
       { name: "If/Else", path: "/conceitos/ifelse" },
       { name: "Show", path: "/conceitos/show" },
     ],
     exercicios: [
-      { name: "Numero aleatório", path: "/exercicios/1" },
-      { name: "Card", path: "/exercicios/2" },
-      { name: "Listagem", path: "/exercicios/3" },
-      { name: "Esconder Menu", path: "/exercicios/4" },
+      { name: "Numero aleatório", path: "/exercicios/numero" },
+      { name: "Listagem", path: "/exercicios/listagem" },
+      { name: "Card", path: "/exercicios/card" },
+      { name: "Esconder Menu", path: "/exercicios/menu" },
     ],
   },
   {
