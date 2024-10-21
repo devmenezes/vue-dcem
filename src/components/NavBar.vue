@@ -16,22 +16,31 @@ const dias = [
       { name: "Template Syntax {{ }}", path: "/conceitos/mustache" },
       { name: "V-For", path: "/conceitos/vfor" },
       { name: "Reatividade Básica", path: "/conceitos/reatividade" },
-      { name: "V-Model", path: "/conceitos/vmodel" },
       { name: "V-Bind", path: "/conceitos/bind" },
+      { name: "V-Model", path: "/conceitos/vmodel" },
       { name: "If/Else", path: "/conceitos/ifelse" },
       { name: "Show", path: "/conceitos/show" },
     ],
     exercicios: [
-      { name: "Numero aleatório", path: "/exercicios/numero" },
+      { name: "Nome", path: "/exercicios/nome" },
       { name: "Listagem", path: "/exercicios/listagem" },
+      { name: "Numero aleatório", path: "/exercicios/numero" },
       { name: "Card", path: "/exercicios/card" },
       { name: "Esconder Menu", path: "/exercicios/menu" },
     ],
   },
   {
     numero: 2,
-    paginas: [],
-    exercicios: [],
+    paginas: [
+      { name: "Binding (+devtools)", path: "/conceitos/binding" },
+      { name: "Eventos", path: "/conceitos/eventos" },
+      { name: "Computed Properties", path: "/conceitos/computed" },
+    ],
+    exercicios: [
+      { name: "Ramal Sigiloso", path: "/exercicios/ramalsigiloso" },
+      { name: "Form Validation", path: "/exercicios/formvalidation" },
+      { name: "Ranking", path: "/exercicios/ranking" },
+    ],
   },
   {
     numero: 3,
@@ -45,7 +54,7 @@ const dias = [
   },
 ];
 
-const currentDay = ref(1);
+const currentDay = ref(2);
 </script>
 
 <template>

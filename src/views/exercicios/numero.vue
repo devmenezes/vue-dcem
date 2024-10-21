@@ -7,7 +7,9 @@
 
 // mostre o número na caixa branca (reatividade)
 
+//trocar por uma ref
 const numero = 1;
+
 </script>
 
 <template>
@@ -16,4 +18,5 @@ const numero = 1;
     1
     <!-- no lugar deste 1 fixo -->
   </div>
+  <button @click="randomNumber">Alterar</button>
 </template>

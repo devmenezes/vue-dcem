@@ -22,8 +22,6 @@ function generateRoutes(
   pathPrefix = "",
 ) {
   return Object.keys(files).map((key) => {
-    // Extract the name from the file path
-
     const name = (key.match(/\/([^\/]+)\.vue$/))[1];
     const path = name === "index" ? `${pathPrefix}/` : `${pathPrefix}/${name}`;
     return {

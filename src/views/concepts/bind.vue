@@ -15,6 +15,9 @@ setInterval(() => {
   imagem.value = wallpapers[index]
 }, 2000)
 
+const peq = [300,200]
+const gde = [600,400]
+
 </script>
 
 
@@ -23,7 +26,7 @@ setInterval(() => {
   <p class="text-4xl font-semibold mb-4">
   Atual: {{ imagem }}
 </p>
-  <img src="/wp3.jpeg" alt="Google" class="w-[640px] h-[400px] rounded-md shadow-xl bg-white border-2 border-white reflec " />
+  <img src="/wp3.jpeg" alt="Google" class="rounded-md shadow-xl bg-white border-2 border-white" width="600" height="400"  />
 </template>
 
 <style scoped>

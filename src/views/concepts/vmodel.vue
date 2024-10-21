@@ -34,6 +34,8 @@ const voluntario = ref(false)
       <p><strong>Idade:</strong> {{ idade }}</p>
       <p><strong>Voluntário: {{ voluntario ? 'sim' : 'não' }}</strong></p>
     </div>
+
+
 </div>
 
 </template>

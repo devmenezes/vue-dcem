@@ -37,7 +37,7 @@ const jaera = () => {
 
   <div class="flex space-x-4">
     <RouterLink
-      to="conceitos/componente"
+      to="conceitos/binding"
       class="z-50 px-8 py-4 mt-4 font-semibold bg-blue-400 rounded-md shadow-lg"
     >
       Vamos!
