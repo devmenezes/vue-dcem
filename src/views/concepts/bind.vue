@@ -24,7 +24,7 @@ const gde = [600,400]
 
 <template>
   <p class="text-4xl font-semibold mb-4">
-  Atual: {{ imagem }}
+  Atual: {{ imagem }} (teste)
 </p>
   <img src="/wp3.jpeg" alt="Google" class="rounded-md shadow-xl bg-white border-2 border-white" width="600" height="400"  />
 </template>
